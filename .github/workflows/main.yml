@@ -13,8 +13,8 @@ jobs:
 
       - name: Build with Gradle
         run: |
-          # Используем системный gradle для сборки
-          gradle assembleDebug
+          chmod +x gradlew
+          ./gradlew assembleDebug
           
       - name: Upload APK
         uses: actions/upload-artifact@v4
