@@ -1,2 +1,3 @@
 include ':app'
-rootProject.name='Login and Signup UI (JAVA)'
+rootProject.name = "DarknessLoader"
+
