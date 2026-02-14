@@ -10,14 +10,11 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      
-      - name: Generate Gradle Wrapper
-        run: gradle wrapper # Эта команда сама создаст недостающий jar файл
-        
+
       - name: Build with Gradle
         run: |
-          chmod +x gradlew
-          ./gradlew assembleDebug
+          # Используем системный gradle для сборки
+          gradle assembleDebug
           
       - name: Upload APK
         uses: actions/upload-artifact@v4
