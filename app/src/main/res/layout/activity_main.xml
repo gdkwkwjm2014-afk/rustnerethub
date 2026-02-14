@@ -27,7 +27,6 @@
         android:background="#1A0000"
         android:orientation="vertical"
         android:padding="15dp">
-
         <TextView
             android:text="USER PROFILE"
             android:textColor="#FF4444"
@@ -72,6 +71,4 @@
         android:text="STOP &amp; CLEAN"
         android:textColor="#FFFFFF"
         android:backgroundTint="#444444" />
-
 </RelativeLayout>
-
