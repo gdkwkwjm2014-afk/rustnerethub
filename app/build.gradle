@@ -1,6 +1,5 @@
-plugins {
-    id 'com.android.application'
-}
+apply plugin: 'com.android.application'
+
 android {
     namespace 'com.darkness.loader'
     compileSdk 33
@@ -12,4 +11,3 @@ android {
         versionName "1.0"
     }
 }
-
